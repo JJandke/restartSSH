@@ -15,6 +15,7 @@ import paramiko
 import time
 
 ssh = paramiko.SSHClient()
+# Here, of course, the variables must be adapted to your own circumstances.
 user = "pi"
 hostname = "localhost"
 pwd = "1234abcd"
