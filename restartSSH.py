@@ -5,7 +5,7 @@
 # The script tries to reach the own device via SSH every 60 seconds.
 # If this is not possible, the service will be restarted.
 # Note: The script must be executed with root privileges.
-#       The best way to do this would be to use a chronjob, which runs it at every boot.
+#       The best way to do this would be to use a cronjob, which runs it at every boot.
 # Furthermore: The script is only a workaround, and he error for the misbehavior of SSH should still be searched.
 # If port 22 is refused, SSH must be uninstalled and then reinstalled again.
 # It may be that paramiko must first be installed using "sudo pip3 install paramiko".
